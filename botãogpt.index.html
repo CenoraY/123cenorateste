@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Código Simples</title>
+</head>
+<body>
+  <h1 id="titulo">Olá — código simples!</h1>
+  <button id="btn">Clique em mim</button>
+
+  <script>
+    const btn = document.getElementById('btn');
+    const titulo = document.getElementById('titulo');
+    btn.addEventListener('click', () => {
+      titulo.textContent = 'Você clicou no botão! 🎉';
+    });
+  </script>
+</body>
+</html>
